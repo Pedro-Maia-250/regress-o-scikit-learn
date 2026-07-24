@@ -7,8 +7,8 @@ import pandas as pd
 
 SEED = 42
 
-QUANTIDADE_AMOSTRAS = 500
-QUANTIDADE_OUTLIERS = 10
+QUANTIDADE_AMOSTRAS = 1000
+QUANTIDADE_OUTLIERS = 20
 
 AREA_MIN = 10
 AREA_MAX = 200
@@ -16,9 +16,9 @@ AREA_MAX = 200
 COEFICIENTE_ANGULAR = 1200      # preço cresce por m²
 INTERCEPTO = 15000              # preço base
 
-DESVIO_PADRAO_RUIDO = 12000     # dispersão natural
+DESVIO_PADRAO_RUIDO = 1200     # dispersão natural
 
-MULTIPLICADOR_OUTLIER = 5       # quão absurdos serão os outliers
+MULTIPLICADOR_OUTLIER = 50       # quão absurdos serão os outliers
 
 ARQUIVO_SAIDA = "dataset_regressao_linear.csv"
 
